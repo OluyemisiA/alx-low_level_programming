@@ -3,7 +3,7 @@
 /**
  * main -  a program that prints all the numbers of base 16 in lowercase,
  *  followed by a new line
- *  Return : 0 (Success)
+ *  Return: 0 (Success)
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(n);
 	}
-	for(ch = 'a'; ch <= 'f'; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}

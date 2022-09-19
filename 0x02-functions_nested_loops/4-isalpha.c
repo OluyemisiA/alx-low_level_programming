@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _isaplha - checks if the input is an alphabet
- * @c: c is a alphabetic character
+ * _isalpha - checks if the input is an alphabet
+ * @c: single letter input
  * Return: 1 (if it is)
  */
 
-int _isalpha(int c) 
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{

@@ -10,23 +10,19 @@ void puts_half(char *str)
 {
 	int i, mod  = 0;
 
-	while (str[i] != '\0')
+	while (i >= 0)
 	{
+		if (str[i] == '\0')
+			break;
 		i++;
 	}
 
 	if (i % 2 == 1)
-	{
 		mod = i / 2;
-	}
-	else 
-	{
+	else
 		mod = (i - 1) / 2;
-	}
 
-	for (; mod < i; i++)
-	{
+	for (mod++; mod < i; mod++)
 		_putchar(str[mod]);
-	}
 	_putchar('\n');
 }

@@ -24,7 +24,7 @@ int main(void)
 			h3 = first + first1 + h1;
 			first = first1, first1 = h3;
 			b = b2, b2 = h2;
-			printf("%lu%010lu", first2, b2);
+			printf("%lu%010lu", first1, b2);
 		}
 		else
 		{

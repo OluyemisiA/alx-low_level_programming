@@ -2,22 +2,20 @@
 
 /**
  * times_table - print the 100 times table
- * @n: input 
+ * @n: input
  * Return: 0
  */
+
 void print_times_table(int n)
 {
 	int x, y, z;
-
 	if (n > 15 || n < 0)
 		return;
-
 	while (x <= n)
-	{	
+	{
 		for (y = 0; y <= n; y++)
 		{
 			z = x * y;
-
 			if (z > 99)
 			{
 				_putchar(z / 100 + '0');
@@ -45,10 +43,9 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
-			}			
+			}
 		}
 		_putchar('\n');
 		x++;
 	}
 }
-

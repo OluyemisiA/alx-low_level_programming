@@ -5,7 +5,7 @@
  * @n: input 
  * Return: 0
  */
-void times_table(int n)
+int times_table(int n)
 {
 	int x, y, z;
 

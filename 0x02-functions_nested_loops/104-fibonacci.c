@@ -3,7 +3,7 @@
 
 /**
  * main - main function
- * Description: Find andFind and print the first 98 
+ * Description: Find andFind and print the first 98
  * fib numbers starting with 1 and 2.
  * Numbers should be coma and space separated
  * Return: 0

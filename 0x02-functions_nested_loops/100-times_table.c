@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - print the 100 times table
+ * print_times_table - print the 100 times table
  * @n: input
  * Return: 0
  */
@@ -9,8 +9,10 @@
 void print_times_table(int n)
 {
 	int x, y, z;
+	
 	if (n > 15 || n < 0)
 		return;
+
 	while (x <= n)
 	{
 		for (y = 0; y <= n; y++)
@@ -19,7 +21,7 @@ void print_times_table(int n)
 			if (z > 99)
 			{
 				_putchar(z / 100 + '0');
-				_putchar((z /10 % 10) + '0');
+				_putchar((z / 10 % 10) + '0');
 				_putchar(z % 10 + '0');
 			}
 			else if (z > 9)
@@ -31,7 +33,7 @@ void print_times_table(int n)
 			else if (y != 0)
 			{
 				_putchar(' ');
-				_putchar(' ' );
+				_putchar(' ');
 				_putchar(z + '0');
 			}
 			else

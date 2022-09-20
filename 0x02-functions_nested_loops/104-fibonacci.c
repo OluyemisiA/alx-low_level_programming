@@ -14,13 +14,13 @@ int main(void)
 	unsigned long int h1, h2, h3;
 	int count;
 
-	printf("%lu, %lu, ", b1, b2);
+	printf("%lu, %lu, ", b, b2);
 	for (count = 2; count < 98; count++)
 	{
 		if (b + b2 > largest || first1 > 0 || first > 0)
 		{
-			h1 = (b1 + b2) / largest;
-			h2 = (b1 + b2) % largest;
+			h1 = (b + b2) / largest;
+			h2 = (b + b2) % largest;
 			h3 = first + first1 + h1;
 			first = first1, first1 = h3;
 			b = b2, b2 = h2;

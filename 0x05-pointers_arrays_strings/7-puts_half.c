@@ -18,9 +18,9 @@ void puts_half(char *str)
 	}
 
 	if (i % 2 == 1)
-		mod = i / 2;
-	else
 		mod = (i - 1) / 2;
+	else
+		mod = i / 2;
 
 	for (mod++; mod < i; mod++)
 		_putchar(str[mod]);

@@ -33,7 +33,7 @@ int main(void)
 			printf("%lu", b2);
 		}
 		if (count != 97)
-			prinft(", ");
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
